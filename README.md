@@ -1,3 +1,11 @@
+#project title: Real-Time IT Service Managment Analytics System
+
+#project description: This project is a real-time IT Service Management (ITSM) analytics system designed to simulate and monitor IT infrastructure activities. It generates realistic dummy data for server performance metrics such as CPU, memory, disk, network usage, and security events like failed login attempts. The backend processes this data using REST APIs and delivers real-time updates through WebSockets. Redis is used for fast, live data handling, while MySQL stores historical records and ITSM ticket information. The frontend dashboard, built with Next.js, displays live charts, alerts, ticket statuses, and SLA information. The system also supports trend analysis, automated alerts, role-based access control, and report generation, making it a complete solution for real-time monitoring and IT service management.
+
+#Technologies used: Frontend: Next.js, WebSocket – for real-time dashboards and live updates Backend: Python, Django, Django REST Framework – for API handling and business logic Databases: Redis (real-time data), MySQL (historical data & tickets)
+
+Student Name: SEIRA ANN VARGHESE Contact Details: phn: 8921632934 ; email-id: seira.inmca2126@saintgits.org 
+Guide's Name: Ms.SREELEKSHMI R
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
