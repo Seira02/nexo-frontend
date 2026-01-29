@@ -1,7 +1,7 @@
 export async function getLiveMetrics() {
   const res = await fetch(
     `${process.env.NEXT_PUBLIC_API_URL}/api/live/`,
-    { cache: "no-store" } // IMPORTANT for real-time
+    { cache: "no-store" } // IMPORTANT for real-timedfd
   );
 
   if (!res.ok) {
